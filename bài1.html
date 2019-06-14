@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <p>Giá Trị nhỏ nhất mảng 1 là: <span id="demo"></span></p>
+        Giá Trị nhỏ nhất mảng 2 là :  <span id="demo2"></span>
+        <br>
+        <br>
+        Giá Trị nhỏ nhất mảng 3 là: <span id="demo3"></span>
+        <script>
+        
+        var  number1 = [10, 5 , 2 , 8 , -1 , 6 , 8, ]; 
+        var  number2 = [2,4,0,5,1];
+        var  number3 = [8,6,2,6,1,1,4]
+        
+         number1.sort(function(a, b){return a-b});
+         number2.sort(function(a, b){return a-b});
+         number3.sort(function(a, b){return a-b})
+
+        
+         document.getElementById("demo").innerHTML = number1[0];
+         document.getElementById("demo2").innerHTML = number2[0];
+         document.getElementById("demo3").innerHTML = number3[0];
+        
+        </script>
+       
+    
+                 
+    
+</body>
+</html>
+ 
